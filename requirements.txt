@@ -1,0 +1,1 @@
+-r career_agent/requirements.txt

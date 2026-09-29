@@ -1,0 +1,5 @@
+Software Engineering Intern
+
+We are looking for a student familiar with Python, React, SQL, Git, and Docker.
+Experience with REST API development, teamwork, and communication is valuable.
+The intern will collaborate on web services and contribute to code reviews.

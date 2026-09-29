@@ -1,0 +1,16 @@
+Jordan Lee
+Computer Science student
+
+EDUCATION
+BSc Computer Science, Northwood University, expected 2027
+
+PROJECTS
+Campus Events Dashboard | Python, React, SQL, Git
+Built a dashboard for student organizations to publish and search events.
+
+EXPERIENCE
+Student Technology Assistant
+Resolved support requests and collaborated with a team to improve onboarding.
+
+SKILLS
+Python, React, SQL, Git, communication, data analysis
