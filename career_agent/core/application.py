@@ -41,6 +41,36 @@ class CareerAgent:
             description = self.parser.read(job_source)
         else:
             raise InputValidationError("Provide a job description file or pasted job text.")
+        return self._analyze_text(
+            cv_content, description, candidate_name=candidate_name, company=company
+        )
+
+    def analyze_uploaded(
+        self,
+        cv_filename: str,
+        cv_content: bytes,
+        job_filename: str,
+        job_content: bytes,
+        *,
+        candidate_name: str = "",
+        company: str = "",
+    ) -> AnalysisReport:
+        """Analyze CV and job-description bytes from an upload interface."""
+        return self._analyze_text(
+            self.parser.read_bytes(cv_filename, cv_content),
+            self.parser.read_bytes(job_filename, job_content),
+            candidate_name=candidate_name,
+            company=company,
+        )
+
+    def _analyze_text(
+        self,
+        cv_content: str,
+        description: str,
+        *,
+        candidate_name: str,
+        company: str,
+    ) -> AnalysisReport:
         if not cv_content.strip():
             raise InputValidationError("The CV contains no readable text.")
         if not description:

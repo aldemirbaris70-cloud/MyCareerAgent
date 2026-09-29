@@ -8,6 +8,7 @@ Generated materials are deterministic templates, not AI-generated factual claims
 
 - Python 3.10 or newer
 - Install document readers with `python -m pip install -r requirements.txt`
+- Streamlit dashboard: `streamlit run app.py`
 
 ## Run
 
@@ -43,6 +44,23 @@ career_agent/
 ```
 
 The complete workflow is exposed through `career_agent.main` and the modular `career_agent` package.
+
+## Streamlit Dashboard
+
+Start the web interface from the repository root:
+
+```powershell
+python -m pip install -r requirements.txt
+streamlit run app.py
+```
+
+Upload a CV and job description in the sidebar, optionally add the candidate and company names, and select **Analyze application**. The dashboard displays the ATS compatibility score, matching and missing skills, recommendations, interview questions, an optimized CV draft, and a tailored cover letter. Use **Download Markdown report** to save the complete report.
+
+### Sample Screenshots
+
+The dashboard is designed around a focused review flow: inputs in the sidebar, the score and skill comparison at the top, recommendations and interview preparation in the middle, and generated application materials below.
+
+![MyCareerAgent dashboard](docs/screenshots/dashboard.svg)
 
 ## Tests
 

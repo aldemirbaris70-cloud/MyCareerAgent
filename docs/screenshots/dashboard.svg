@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f7f4ef"/>
+  <rect width="260" height="700" fill="#17202a"/>
+  <text x="34" y="62" fill="#f7f4ef" font-family="Arial" font-size="27" font-weight="700">MyCareerAgent</text>
+  <text x="34" y="108" fill="#b8c1c7" font-family="Arial" font-size="15">Application inputs</text>
+  <rect x="34" y="132" width="192" height="42" rx="5" fill="#26343e" stroke="#62717b"/>
+  <text x="48" y="158" fill="#f7f4ef" font-family="Arial" font-size="14">Upload CV</text>
+  <rect x="34" y="190" width="192" height="42" rx="5" fill="#26343e" stroke="#62717b"/>
+  <text x="48" y="216" fill="#f7f4ef" font-family="Arial" font-size="14">Upload job description</text>
+  <rect x="34" y="280" width="192" height="42" rx="5" fill="#d05a3d"/>
+  <text x="56" y="306" fill="white" font-family="Arial" font-size="14" font-weight="700">Analyze application</text>
+  <text x="310" y="70" fill="#17202a" font-family="Arial" font-size="40" font-weight="700">MyCareerAgent</text>
+  <text x="310" y="102" fill="#65727e" font-family="Arial" font-size="17">Turn a CV and a target role into a focused application plan.</text>
+  <rect x="310" y="145" width="240" height="130" fill="#e5f1e9" stroke="#d05a3d" stroke-width="6"/>
+  <text x="332" y="180" fill="#65727e" font-family="Arial" font-size="13">ATS COMPATIBILITY</text>
+  <text x="332" y="240" fill="#17202a" font-family="Arial" font-size="52" font-weight="700">75.7%</text>
+  <text x="590" y="172" fill="#17202a" font-family="Arial" font-size="17" font-weight="700">Skill coverage</text>
+  <rect x="590" y="195" width="270" height="12" rx="6" fill="#d9d5ce"/><rect x="590" y="195" width="200" height="12" rx="6" fill="#d05a3d"/>
+  <text x="900" y="172" fill="#17202a" font-family="Arial" font-size="17" font-weight="700">CV section coverage</text>
+  <rect x="900" y="195" width="240" height="12" rx="6" fill="#d9d5ce"/><rect x="900" y="195" width="240" height="12" rx="6" fill="#d05a3d"/>
+  <line x1="310" y1="315" x2="1140" y2="315" stroke="#d9d5ce"/>
+  <text x="310" y="360" fill="#17202a" font-family="Arial" font-size="21" font-weight="700">Matching skills</text>
+  <text x="730" y="360" fill="#17202a" font-family="Arial" font-size="21" font-weight="700">Missing skills</text>
+  <g font-family="Arial" font-size="14"><rect x="310" y="382" width="74" height="30" rx="15" fill="#e7ecee"/><text x="326" y="402" fill="#17202a">Python</text><rect x="394" y="382" width="55" height="30" rx="15" fill="#e7ecee"/><text x="410" y="402" fill="#17202a">React</text><rect x="730" y="382" width="72" height="30" rx="15" fill="#f4ded7"/><text x="746" y="402" fill="#17202a">Docker</text><rect x="812" y="382" width="72" height="30" rx="15" fill="#f4ded7"/><text x="828" y="402" fill="#17202a">REST API</text></g>
+  <line x1="310" y1="455" x2="1140" y2="455" stroke="#d9d5ce"/>
+  <text x="310" y="500" fill="#17202a" font-family="Arial" font-size="21" font-weight="700">Recommendations</text>
+  <text x="730" y="500" fill="#17202a" font-family="Arial" font-size="21" font-weight="700">Likely interview questions</text>
+  <text x="310" y="535" fill="#65727e" font-family="Arial" font-size="14">Add measurable project outcomes and evidence for missing skills.</text>
+  <text x="730" y="535" fill="#65727e" font-family="Arial" font-size="14">How did you use Python in a recent project?</text>
+  <rect x="310" y="600" width="218" height="42" rx="5" fill="#d05a3d"/><text x="335" y="627" fill="white" font-family="Arial" font-size="15" font-weight="700">Download Markdown report</text>
+</svg>

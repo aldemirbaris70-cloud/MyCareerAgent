@@ -51,6 +51,13 @@ class DocumentAndReportTests(unittest.TestCase):
             text = DocumentParser().read(path)
             self.assertIn("Python developer", text)
             self.assertIn("SQL project", text)
+            uploaded_text = DocumentParser().read_bytes("resume.docx", path.read_bytes())
+            self.assertIn("Python developer", uploaded_text)
+            self.assertIn("SQL project", uploaded_text)
+
+    def test_uploaded_text_is_parsed_without_a_temporary_file(self) -> None:
+        parser = DocumentParser()
+        self.assertEqual(parser.read_bytes("cv.txt", b"Python\nSQL"), "Python\nSQL")
 
     def test_pdf_parser_reads_pages_and_rejects_encryption(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
